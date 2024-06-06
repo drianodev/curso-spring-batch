@@ -1,6 +1,6 @@
 ## Visão Geral
 
-O projeto "ParImparJob" é uma aplicação Spring Batch projetada para demonstrar os conceitos básicos do framework Spring Batch. Ele contém um job simples que conta até 10 e informa se um número é par ou impar.
+O projeto "par-impar-job" é uma aplicação Spring Batch projetada para demonstrar os conceitos básicos do framework Spring Batch. Ele contém um job simples que conta até 10 e informa se um número é par ou impar.
 
 ## Estrutura do Projeto
 

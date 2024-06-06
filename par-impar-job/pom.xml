@@ -7,9 +7,9 @@
 		<artifactId>udemy-spring-batch</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>ParImparJob</artifactId>
+	<artifactId>par-impar-job</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ParImparJob</name>
+	<name>par-impar-job</name>
 	<description>Job que conta até 10 e informa se um número é par ou impar.</description>
 	<properties>
 		<java.version>17</java.version>

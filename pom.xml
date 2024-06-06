@@ -14,7 +14,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>ParImparJob</module>
+        <module>par-impar-job</module>
         <module>spring-batch</module>
     </modules>
 </project>
