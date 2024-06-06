@@ -14,7 +14,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>par-impar-job</module>
         <module>spring-batch</module>
+        <module>par-impar-job</module>
+        <module>arquivo-largura-fixa-job</module>
     </modules>
 </project>

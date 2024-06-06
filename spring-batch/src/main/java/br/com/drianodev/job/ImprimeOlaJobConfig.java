@@ -1,6 +1,6 @@
-package br.com.drianodev.springbatch.job;
+package br.com.drianodev.job;
 
-import br.com.drianodev.springbatch.step.ImprimeOlaStepConfig;
+import br.com.drianodev.step.ImprimeOlaStepConfig;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.job.builder.JobBuilder;

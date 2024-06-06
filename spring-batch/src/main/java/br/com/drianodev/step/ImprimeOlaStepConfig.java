@@ -1,4 +1,4 @@
-package br.com.drianodev.springbatch.step;
+package br.com.drianodev.step;
 
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.repository.JobRepository;

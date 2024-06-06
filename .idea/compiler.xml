@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="par-impar-job" />
         <module name="spring-batch" />
+        <module name="arquivo-largura-fixa-job" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="arquivo-largura-fixa-job" options="-parameters" />
       <module name="par-impar-job" options="-parameters" />
       <module name="spring-batch" options="-parameters" />
     </option>

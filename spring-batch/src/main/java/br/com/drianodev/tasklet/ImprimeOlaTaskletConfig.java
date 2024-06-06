@@ -1,4 +1,4 @@
-package br.com.drianodev.springbatch.tasklet;
+package br.com.drianodev.tasklet;
 
 import org.springframework.batch.core.StepContribution;
 import org.springframework.batch.core.configuration.annotation.StepScope;
