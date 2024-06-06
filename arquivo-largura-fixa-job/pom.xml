@@ -10,7 +10,7 @@
 	<artifactId>arquivo-largura-fixa-job</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>arquivo-largura-fixa-job</name>
-	<description>Job que conta até 10 e informa se um número é par ou impar.</description>
+	<description>Job que ler arquivo de largura fixa.</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

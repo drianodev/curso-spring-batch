@@ -1,0 +1,4 @@
+br/com/drianodev/springbatch/SpringBatchApplication.class
+br/com/drianodev/springbatch/tasklet/ImprimeOlaTaskletConfig.class
+br/com/drianodev/springbatch/job/ImprimeOlaJobConfig.class
+br/com/drianodev/springbatch/step/ImprimeOlaStepConfig.class
