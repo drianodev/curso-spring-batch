@@ -17,5 +17,6 @@
         <module>spring-batch</module>
         <module>par-impar-job</module>
         <module>arquivo-largura-fixa-job</module>
+        <module>leitura-arquivo-delimitado-job</module>
     </modules>
 </project>
