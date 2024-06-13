@@ -10,12 +10,12 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.Resource;
 
 @Configuration
-public class ArquivoDelimitadoReaderConfig {
+public class LeituraMultiplosArquivosReaderConfig {
 
     @SuppressWarnings({"rawtypes", "uncheck", "unchecked"})
     @StepScope
     @Bean
-    public FlatFileItemReader leituraArquivoDelimitadoReader(
+    public FlatFileItemReader leituraMultiplosArquivosReader(
             @Value("#{jobParameters['arquivoClientes']}") Resource arquivoClientes,
             LineMapper lineMapper) {
         return new FlatFileItemReaderBuilder()

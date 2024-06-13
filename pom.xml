@@ -19,5 +19,6 @@
         <module>arquivo-largura-fixa-job</module>
         <module>leitura-arquivo-delimitado-job</module>
         <module>arquivo-multiplos-formatos-job</module>
+        <module>leitura-multiplos-arquivos-job</module>
     </modules>
 </project>
