@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.Resource;
 
 @Configuration
-public class LeituraArquivoDelimitadoReaderConfig {
+public class ArquivoDelimitadoReaderConfig {
 
     @SuppressWarnings({"rawtypes", "uncheck", "unchecked"})
     @StepScope

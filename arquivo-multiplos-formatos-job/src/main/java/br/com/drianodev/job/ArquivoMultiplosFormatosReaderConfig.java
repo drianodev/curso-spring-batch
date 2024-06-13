@@ -1,6 +1,6 @@
 package br.com.drianodev.job;
 
-import br.com.drianodev.step.LeituraArquivoMultiplosFormatosStep;
+import br.com.drianodev.step.ArquivoMultiplosFormatosStep;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.job.builder.JobBuilder;
@@ -12,8 +12,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
 @Configuration
-@Import(LeituraArquivoMultiplosFormatosStep.class)
-public class LeituraArquivoMultiplosFormatosReaderConfig {
+@Import(ArquivoMultiplosFormatosStep.class)
+public class ArquivoMultiplosFormatosReaderConfig {
 
     @Autowired
     private JobRepository jobRepository;
