@@ -13,12 +13,14 @@
         <module name="spring-batch" />
         <module name="leitura-arquivo-delimitado-job" />
         <module name="arquivo-largura-fixa-job" />
+        <module name="arquivo-multiplos-formatos-job" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="arquivo-largura-fixa-job" options="-parameters" />
+      <module name="arquivo-multiplos-formatos-job" options="-parameters" />
       <module name="leitura-arquivo-delimitado-job" options="-parameters" />
       <module name="par-impar-job" options="-parameters" />
       <module name="spring-batch" options="-parameters" />

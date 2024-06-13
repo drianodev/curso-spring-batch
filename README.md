@@ -8,5 +8,6 @@ Este projeto consiste em aplicações Spring Batch projetadas para demonstrar os
 2. **par-impar-job**: Um job que conta até 10 e informa se um número é par ou impar.
 2. **arquivo-largura-fixa-job**: Um job que ler um arquivo txt.
 2. **leitura-arquivo-delimitado-job**: Um job que ler um arquivo txt delimitado.
+2. **arquivo-multiplos-formatos-job**: Um job que ler um arquivo de multiplos formatos.
 
 
