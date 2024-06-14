@@ -10,10 +10,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="par-impar-job" />
-        <module name="spring-batch" />
+        <module name="jdbc-cursor-reader-job" />
         <module name="leitura-multiplos-arquivos-job" />
         <module name="leitura-arquivo-delimitado-job" />
         <module name="arquivo-largura-fixa-job" />
+        <module name="spring-batch" />
         <module name="arquivo-multiplos-formatos-job" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="arquivo-largura-fixa-job" options="-parameters" />
       <module name="arquivo-multiplos-formatos-job" options="-parameters" />
+      <module name="jdbc-cursor-reader-job" options="-parameters" />
       <module name="leitura-arquivo-delimitado-job" options="-parameters" />
       <module name="leitura-multiplos-arquivos-job" options="-parameters" />
       <module name="par-impar-job" options="-parameters" />

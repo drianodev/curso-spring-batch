@@ -20,5 +20,6 @@
         <module>leitura-arquivo-delimitado-job</module>
         <module>arquivo-multiplos-formatos-job</module>
         <module>leitura-multiplos-arquivos-job</module>
+        <module>jdbc-cursor-reader-job</module>
     </modules>
 </project>
