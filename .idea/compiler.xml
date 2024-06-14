@@ -17,6 +17,7 @@
         <module name="arquivo-largura-fixa-job" />
         <module name="spring-batch" />
         <module name="arquivo-multiplos-formatos-job" />
+        <module name="skip-exception-job" />
       </profile>
     </annotationProcessing>
   </component>
@@ -29,6 +30,7 @@
       <module name="leitura-arquivo-delimitado-job" options="-parameters" />
       <module name="leitura-multiplos-arquivos-job" options="-parameters" />
       <module name="par-impar-job" options="-parameters" />
+      <module name="skip-exception-job" options="-parameters" />
       <module name="spring-batch" options="-parameters" />
     </option>
   </component>

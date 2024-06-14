@@ -22,5 +22,6 @@
         <module>leitura-multiplos-arquivos-job</module>
         <module>jdbc-cursor-reader-job</module>
         <module>jdbc-paging-reader-job</module>
+        <module>skip-exception-job</module>
     </modules>
 </project>

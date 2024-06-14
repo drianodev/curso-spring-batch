@@ -12,5 +12,6 @@ Este projeto consiste em aplicações Spring Batch projetadas para demonstrar os
 6. **leitura-multiplos-arquivo-job**: Um job que lê multiplos arquivo.
 7. **jdbc-cursor-reader-job**: Um job que lê dados do banco utilizando um cursor.
 8. **jdbc-paging-reader-job**: Um job que lê dados do banco utilizando um paginador.
+9. **skip-exception-job**: Um job que realiza skip de exceções.
 
 
