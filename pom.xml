@@ -21,5 +21,6 @@
         <module>arquivo-multiplos-formatos-job</module>
         <module>leitura-multiplos-arquivos-job</module>
         <module>jdbc-cursor-reader-job</module>
+        <module>jdbc-paging-reader-job</module>
     </modules>
 </project>

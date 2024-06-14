@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$/arquivo-largura-fixa-job/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/arquivo-multiplos-formatos-job/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jdbc-cursor-reader-job/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jdbc-paging-reader-job/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/leitura-arquivo-delimitado-job/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/leitura-multiplos-arquivos-job/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/par-impar-job/src/main/java" charset="UTF-8" />
