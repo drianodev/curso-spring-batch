@@ -23,5 +23,8 @@
         <module>jdbc-cursor-reader-job</module>
         <module>jdbc-paging-reader-job</module>
         <module>skip-exception-job</module>
+        <module>processador-validacao-job</module>
+        <module>processador-validacao-job</module>
     </modules>
 </project>
+

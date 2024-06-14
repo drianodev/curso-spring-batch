@@ -3,6 +3,7 @@
   <component name="CompilerConfiguration">
     <excludeFromCompile>
       <directory url="file://$PROJECT_DIR$/leitura-arquivo-delimitado-job/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/processador-validacao-job/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -14,6 +15,7 @@
         <module name="jdbc-paging-reader-job" />
         <module name="leitura-multiplos-arquivos-job" />
         <module name="leitura-arquivo-delimitado-job" />
+        <module name="processador-validacao-job" />
         <module name="arquivo-largura-fixa-job" />
         <module name="spring-batch" />
         <module name="arquivo-multiplos-formatos-job" />
@@ -30,6 +32,7 @@
       <module name="leitura-arquivo-delimitado-job" options="-parameters" />
       <module name="leitura-multiplos-arquivos-job" options="-parameters" />
       <module name="par-impar-job" options="-parameters" />
+      <module name="processador-validacao-job" options="-parameters" />
       <module name="skip-exception-job" options="-parameters" />
       <module name="spring-batch" options="-parameters" />
     </option>
