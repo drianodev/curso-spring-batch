@@ -14,9 +14,7 @@ Este projeto consiste em aplicações Spring Batch projetadas para demonstrar os
 8. **jdbc-paging-reader-job**: Job que lê dados do banco utilizando um paginador.
 9. **skip-exception-job**: Job que realiza skip de exceções.
 10. **processador-validacao-job**: Job que implementa um processador de validação de dados.
-
-[//]: # (9. **skip-exception-job**: Job que realiza skip de exceções.)
-
-[//]: # (9. **skip-exception-job**: Job que realiza skip de exceções.)
+11. **processador-script-job**: Job que implementa um processador que executa um script.
+12. **processador-classifier-job**: Job que implementa um processador que utiliza classificadores.
 
 

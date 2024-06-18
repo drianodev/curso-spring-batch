@@ -1,0 +1,15 @@
+package br.com.drianodev.processor;
+
+import br.com.drianodev.dominio.Transacao;
+
+import org.springframework.batch.item.ItemProcessor;
+
+public class TransacaoProcessor implements ItemProcessor<Transacao, Transacao> {
+
+  @Override
+  public Transacao process(Transacao transacao) throws Exception {
+    System.out.println(String.format("\nAplicando regras de negócio na transação %s", transacao.getId()));
+    return transacao;
+  }
+
+}

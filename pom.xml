@@ -25,6 +25,8 @@
         <module>skip-exception-job</module>
         <module>processador-validacao-job</module>
         <module>processador-validacao-job</module>
+        <module>processador-script-job</module>
+        <module>processador-classifier-job</module>
     </modules>
 </project>
 
