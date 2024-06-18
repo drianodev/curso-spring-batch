@@ -27,6 +27,7 @@
         <module>processador-validacao-job</module>
         <module>processador-script-job</module>
         <module>processador-classifier-job</module>
+        <module>demonstrativo-orcamentario-job</module>
     </modules>
 </project>
 

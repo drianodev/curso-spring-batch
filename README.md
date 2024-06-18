@@ -16,5 +16,6 @@ Este projeto consiste em aplicações Spring Batch projetadas para demonstrar os
 10. **processador-validacao-job**: Job que implementa um processador de validação de dados.
 11. **processador-script-job**: Job que implementa um processador que executa um script.
 12. **processador-classifier-job**: Job que implementa um processador que utiliza classificadores.
+12. **demonstrativo-orcamentario-job**: Job que gera um demonstrativo orçamentário a partir de arquivos de lançamentos.
 
 
