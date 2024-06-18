@@ -6,6 +6,7 @@ import br.com.drianodev.writer.DemonstratrivoOrcamentarioRodape;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.repository.JobRepository;
 import org.springframework.batch.core.step.builder.StepBuilder;
+import org.springframework.batch.item.file.MultiResourceItemReader;
 import org.springframework.batch.item.file.MultiResourceItemWriter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -24,11 +25,12 @@ public class DemonstrativoOrcamentarioStepConfig {
 	@Bean
 	Step demonstrativoOrcamentarioStep(
 			// Esse aqui lê dos arquivos
-			// MultiResourceItemReader<GrupoLancamento> demonstrativoOrcamentarioReader,
+//			 MultiResourceItemReader<GrupoLancamento> demonstrativoOrcamentarioReader,
 			// Esse aqui lê do banco de dados
 			GrupoLancamentoReader demonstrativoOrcamentarioReader,
 			MultiResourceItemWriter<GrupoLancamento> demonstrativoOrcamentarioWriter,
-			DemonstratrivoOrcamentarioRodape rodapeCallback) {
+			DemonstratrivoOrcamentarioRodape rodapeCallback
+	) {
 		return new StepBuilder("demonstrativoOrcamentarioStep", jobRepository)
 				.<GrupoLancamento, GrupoLancamento>chunk(1, transactionManager)
 				.reader(demonstrativoOrcamentarioReader)

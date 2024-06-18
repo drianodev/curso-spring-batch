@@ -6,9 +6,10 @@ CODIGO NOME VALOR
 	 Data Descricao Valor
 ----------------------------------------------------------------------------
 
-[44905224] EQUIPAMENTO DE PROTEÇÃO SEGURANÇA E SOCORRO - R$ 1.000,00
-	 [01/05/2020] Alarme - R$ 1.000,00
+[44905218] COLEÇÕES E MATERIAIS BIBLIOGRÁFICOS - R$ 8.000,00
+	 [11/05/2020] Livro de Algoritmos - R$ 4.000,00
+	 [12/05/2020] Dicionários - R$ 4.000,00
 
 
-							  Total: R$ 1.000,00
+							  Total: R$ 8.000,00
 							  Código de Autenticação: fkyew6868fewjfhjjewf

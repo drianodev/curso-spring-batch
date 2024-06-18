@@ -6,9 +6,11 @@ CODIGO NOME VALOR
 	 Data Descricao Valor
 ----------------------------------------------------------------------------
 
-[44905224] EQUIPAMENTO DE PROTEÇÃO SEGURANÇA E SOCORRO - R$ 1.000,00
-	 [01/05/2020] Alarme - R$ 1.000,00
+[33903024] MATERIAL P/ MANUT. DE BENS IMÓVEIS/INSTALAÇÕES - R$ 16.000,00
+	 [11/05/2020] Aparelhos Sanitários - R$ 6.000,00
+	 [12/05/2020] Cimento - R$ 2.000,00
+	 [13/05/2020] Amianto - R$ 8.000,00
 
 
-							  Total: R$ 1.000,00
+							  Total: R$ 16.000,00
 							  Código de Autenticação: fkyew6868fewjfhjjewf

@@ -4,6 +4,7 @@ import br.com.drianodev.dominio.GrupoLancamento;
 import org.springframework.batch.item.ExecutionContext;
 import org.springframework.batch.item.ItemStreamException;
 import org.springframework.batch.item.database.JdbcCursorItemReader;
+import org.springframework.batch.item.file.FlatFileItemReader;
 import org.springframework.batch.item.file.ResourceAwareItemReaderItemStream;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
@@ -14,7 +15,7 @@ public class GrupoLancamentoReader implements ResourceAwareItemReaderItemStream<
 
 	@Autowired
 	// Esse aqui lê do arquivo
-	// private FlatFileItemReader<GrupoLancamento> delegate;
+//	 private FlatFileItemReader<GrupoLancamento> delegate;
 	// Esse aqui lê do banco
 	private JdbcCursorItemReader<GrupoLancamento> delegate;
 	private GrupoLancamento lancamentoAtual;
@@ -37,7 +38,7 @@ public class GrupoLancamentoReader implements ResourceAwareItemReaderItemStream<
 	@Override
 	public void setResource(Resource resource) {
 		// Descomentar para a leitura de arquivo
-		// delegate.setResource(resource);
+//		 delegate.setResource(resource);
 	}
 
 	@Override
